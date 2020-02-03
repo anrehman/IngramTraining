@@ -1,6 +1,6 @@
 # Makenai Solutions Inovation and Creative Ideas Weather Bot
 
-This is a bot that is used as a bot specific for gettting weather information and provide rating for usage:
+This is a bot that is used as a bot specific for getting weather information and provide rating for usage:
 
 configuration: pass settings either through environment variables on the command line, or by hardcoding some of them in the `.env` file. Note that env variable are priorized over the `env`file if values are found in both places.
 

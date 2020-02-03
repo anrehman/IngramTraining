@@ -1,0 +1,25 @@
+{
+  "description": "Care Bot",
+  "version": "0.1.0",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "keywords": [
+    "ciscospark",
+    "botkit",
+    "devnet"
+  ],
+  "author": "Aniqa Rehman <anrehman@makenai.es>",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.6.0",
+    "botkit": "^0.5.7",
+    "node-ciscospark": "^1.0.3",
+    "node-env-file": "^0.1.8",
+    "request": "^2.85.0",
+    "webex": "^1.80.61",
+    "async-waterfall": "0.1.5",
+    "nodemailer": "6.4.2"
+  }
+}

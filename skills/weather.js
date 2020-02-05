@@ -49,7 +49,7 @@ module.exports = function (controller) {
         var timezone = (offset < 0 ? "+" : "-") + ("00" + Math.floor(o / 60)).slice(-2) + ":" + ("00" + (o % 60)).slice(-2)
     }
     function getResultCard(data) {
-        // locaton: new Date((data.dt) * 1000).toDateString()
+        // locaton: data.name+", "+ data.sys.country
         // date: new Date((data.dt) * 1000).toDateString()
         // temp: ""+ Math.floor(data.main.temp - 273.15)
         // weather icon: http://openweathermap.org/img/wn/" +data.weather[0].icon+ "@2x.png
@@ -60,6 +60,15 @@ module.exports = function (controller) {
         // kelvin scale to celcius
         // return the card
         // TODO create the attachment card
-        return "";        
+        //{
+        // "contentType": "application/vnd.microsoft.card.adaptive",
+         //   "content":{}
+        //}
+        //
+        return {
+            "contentType": "application/vnd.microsoft.card.adaptive",
+            "content":
+            { }
+    };        
     }
 }

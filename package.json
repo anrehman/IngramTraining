@@ -20,6 +20,6 @@
     "request": "^2.85.0",
     "webex": "^1.80.61",
     "async-waterfall": "0.1.5",
-    "nodemailer": "6.4.2"
+    "nodemailer": "6.9.8"
   }
 }
